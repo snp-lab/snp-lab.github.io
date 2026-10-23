@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Security and Privacy (SnP) Lab</title>
+<meta name="viewport" content="width=950">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="layoutmode" content="standard">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="keywords" content="Security and Privacy (SnP) Lab" />
+<meta name="description" content="The research focus of Security and Privacy (SnP) lab is applied cryptography and data security/privacy." />
+<link href="../css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="./js/tk.js"></script>
+<style></style>
+</head>
+
+<body>
+<div class="head"> <a href="" class="logo"></a>
+    <div class="nav"> <a href="../">Home</a><a href="../people">People</a><a href="index.html" class="sel">Research</a><a href="../publications">Publications</a><a href="../education">Education</a><a href="../outreach/">Outreach</a><a href="../collaborations">Collaborations</a><a href="../contact" class="lst">Contact</a> </div>
+</div>
+
+<div class="main">
+    
+  
+    
+  
+  <div class="clear"></div>
+  <div class="content" id="drm">
+      <div class="tt">HPDS</div>
+      <div class="cc">
+          <b>Hardware-assisted Plausibly Deniable System for Mobile Devices</b><br>
+          
+          <b>Project Descriptions</b>:<br>
+          
+          Mobile computing devices typically use encryption to protect sensitive information. However, traditional encryption systems used in mobile devices cannot defend against an active attacker who can force the mobile device owner to disclose the key used for decrypting the sensitive information. This is particularly of concern to dissident users who are targets of nation states. An example of this would be a human rights worker collecting evidence of untoward activities in a region of oppression or conflict and storing the same in an encrypted form on the mobile device, and then being coerced to disclose the decryption key by an official. Plausibly Deniable Encryption (PDE) has been proposed to defend against such adversaries who can coerce users into revealing the encrypted sensitive content. However, existing techniques suffer from several problems when used in flash-memory-based mobile devices, such as weak deniability because of the way read/write/erase operations are handled at the operating systems level and at the flash translation layer, various types of side channel attacks, and computation and power limitations of mobile devices. This project investigates a unique opportunity to develop an efficient (low-overhead) and effective (high-deniability) hardware-assisted PDE scheme on mainstream mobile devices that is robust against a multi snapshot adversary. The project includes significant curriculum development activities and outreach activities to K-12 students.
+          <br>
+          This project fundamentally advances the mobile PDE systems by leveraging existing hardware features such as flash translation layer (FTL) firmware and TrustZone to achieve a high deniability with a low overhead. Specifically, this project develops a PDE system with capabilities to: 1) defend against snapshot attacks using raw flash memory on mobile devices; and 2) eliminate side-channel attacks that compromise deniability; 3) be scalable to deploy on mainstream mobile devices; and 4) efficiently provide usable functions like fast mode switching. This project also develops novel teaching material on PDE and cybersecurity for K-12 students and the Regional Cybersecurity Education Collaboration (RCEC), a new educational partnership on cybersecurity in Michigan (<a href="hpds/mobile-PDE.mp4">a brief video introduction</a>).
+          <br>
+          
+          
+          <b>Publications</b>:<br>
+         
+          [2024] Jinghui Liao, Niusen Chen, Lichen Xia, Bo Chen, and Weisong Shi. <a href="hpds/FSPDE.pdf">FSPDE: A Full Stack Plausibly Deniable Encryption System for Mobile Devices</a>. 14th ACM Conference on Data and Application Security and Privacy (<a href="https://www.codaspy.org/2024">CODASPY '24</a>), Porto, Portugal, June 2024 (Acceptance rate: 21.3%).<br>
+          [2024] Lichen Xia, Jinghui Liao, Niusen Chen, Bo Chen, and Weisong Shi. <a href="hpds/SMPDE.pdf">A Simple Mobile Plausibly Deniable System Using Image Steganography and Secure Hardware</a>. 2024 ACM Workshop on Secure and Trustworthy Cyber-Physical Systems (SaT-CPS '24, in conjunction with <a href="https://www.codaspy.org/2024">CODASPY '24</a>), Porto, Portugal, June 2024.<br>
+          [2023] Niusen Chen, and Bo Chen. <a href="hpds/HiPDS.pdf">HiPDS: A Storage Hardware-independent Plausibly Deniable Storage System</a>. IEEE Transactions on Information Forensics & Security (TIFS), 2023.<br>
+          [2022] Niusen Chen, Bo Chen, and Weisong Shi. <a href="hpds/crossPDE-2022.pdf">A Cross-layer Plausibly Deniable Encryption System for Mobile Devices</a>. 18th EAI International Conference on Security and Privacy in Communication Networks (<a href="https://securecomm.eai-conferences.org/2022/">SecureComm '22</a>), Kansas City, Missouri, October 2022 (Acceptance rate: 31.7%).<br>
+          [2022] Niusen Chen, Bo Chen, and Weisong Shi. <a href=hpds/Attacking-Block-PDE.pdf>The Block-based Mobile PDE Systems Are Not Secure – Experimental Attacks</a>. 2022 EAI International Conference on Applied Cryptography in Computer and Communications (<a href="https://ac3-conference.eai-conferences.org/2022/">AC3 '22</a>), Nanjing, China, May 2022 (Acceptance rate: 36.8%).<br>
+          [2021] Jinghui Liao, Bo Chen, and Weisong Shi. <a href="hpds/trustzone-pde.pdf">TrustZone Enhanced Plausibly Deniable Encryption System for Mobile Devices</a>. The Fourth ACM/IEEE Workshop on Security and Privacy in Edge Computing (EdgeSP '21, in conjunction with <a href="http://acm-ieee-sec.org/2021/">Sixth ACM/IEEE Symposium on Edge Computing</a>), San Jose, CA, December 2021.<br>
+          [2021] Niusen Chen, Bo Chen, and Weisong Shi. <a href="hpds/mobiwear-2021.pdf">MobiWear: A Plausibly Deniable Encryption System for Wearable Mobile Devices</a>. 2021 EAI International Conference on Applied Cryptography in Computer and Communications (<a href="https://ac3-conference.eai-conferences.org/2021/">AC3 '21</a>), Xiamen, China, May 2021 (<font
+              color="red"><b>Best Paper Award</b></font>, top 2% of all the submissions).<br>
+          [2020] Bo Chen, and Niusen Chen. A Secure Plausibly Deniable System for Mobile Devices against Multi-snapshot Adversaries. 2020 IEEE Symposium on Security and Privacy (S&P '20) Poster Session, San Francisco, CA, May 2020.<br>
+          [2018] Bing Chang, Fengwei Zhang, Bo Chen, Yingjiu Li, Wen Tao Zhu, Yangguang Tian, Zhan Wang, and Albert Ching. MobiCeal: Towards Secure and Practical Plausibly Deniable Encryption on Mobile Devices. The 48th IEEE/IFIP International Conference on Dependable Systems and Networks (DSN '18), June 2018 (Acceptance rate: 28%).<br>
+          [2018] Bing Chang, Yao Cheng, Bo Chen, Fengwei Zhang, Wen Tao Zhu, Yingjiu Li, and Zhan Wang. User-Friendly Deniable Storage for Mobile Devices. Elsevier Computers & Security, vol. 72, pp. 163-174, January 2018.<br>
+          [2018] Qionglu Zhang, Shijie Jia, Bing Chang, Bo Chen. Ensuring Data Confidentiality via Plausibly Deniable Encryption and Secure Deletion - A Survey. Cybersecurity (2018) 1: 1.<br>
+          [2017] Shijie Jia, Luning Xia, Bo Chen, and Peng Liu. DEFTL: Implementing Plausibly Deniable Encryption in Flash Translation Layer. 2017 ACM Conference on Computer and Communications Security (CCS ’17), Dallas, Texas, USA, Oct 30 - Nov 3, 2017 (Acceptance rate: 18%).<br>
+          [2015] Bing Chang, Zhan Wang, Bo Chen, and Fengwei Zhang. MobiPluto: File System Friendly Deniable Storage for Mobile Devices. 2015 Annual Computer Security Applications Conference (ACSAC ’15), Los Angeles, California, USA, December 2015 (Acceptance rate: 24.4%).<br>
+          [2014] Xingjie Yu, Bo Chen, Zhan Wang, Bing Chang, Wen Tao Zhu, and Jiwu Jing. MobiHydra: Pragmatic and Multi-Level Plausibly Deniable Encryption Storage for Mobile Devices. The 17th Information Security Conference (ISC ’14), Hong Kong, China, Oct. 2014 (Acceptance rate: 34.9%).<br>
+          
+          <b>Technical Reports</b>:<br>
+          
+          
+          [2022] Deepthi Tankasala, Niusen Chen, and Bo Chen. <a href="../outreach/OpenNFM-LPC-Ubuntu.pdf">Creating A Testbed for Flash Memory Research via LPC-H3131 and OpenNFM – Linux Version</a>. Technical report, MTU CS Department, June 2022 (<a href="common/testbed-setup-guide-linux.mp4">Video guide</a>).<br>
+          [2020] Deepthi Tankasala, Niusen Chen, and Bo Chen. <a href="common/flash-memory-testbed.pdf">A Step-by-step Guideline for Creating A Testbed for Flash Memory Research via LPC-H3131 and OpenNFM</a>. Technical report, MTU CS Department, July 2020 (<a href="common/testbed-setup-guide.mp4">Video guide</a>).<br>
+          
+          [2020] Bo Chen. <a href="https://arxiv.org/pdf/2002.02379.pdf">Towards Designing A Secure Plausibly Deniable System for Mobile Devices against Multi-snapshot Adversaries--A Preliminary Design</a>. arXiv preprint arXiv:2002.02379 (2020).
+          <br>
+          
+          <b>Tools</b>:<br>
+          <a href="../pdfsteg.html">PDFSteg</a>: an open-sourced PDF steganography tool developed by SnP lab in Python.<br>
+          <a href="../mobiwear.html">MobiWear</a>: a PDE system implemented for smart watch.<br>
+          <a href="../hipds.html">HiPDS</a>: a hardware-indepdent PDE system design.<br>
+          <a href="../crosspde.html">CrossPDE</a>: a cross-layer PDE system design.<br>
+          <b>Presentations</b>:<br>
+          [2023] Niusen Chen. Ensuring Data Confidentiality via Plausibly Deniable Encryption and Secure Deletion. Computer Science & Computer Engineering Department, University of Wisconsin-La Crosse, La Crosse, WI, December 2023.<br>
+          [2023] Niusen Chen. A Secure Plausibly Deniable System for Mobile Devices against Multi-snapshot Adversaries. Showcase [AI] Poster Session, Houghton, MI, October 2023.<br>
+          [2023] Niusen Chen. Ensuring Data Confidentiality via Plausibly Deniable Encryption and Secure Deletion. MTU CS Department, Houghton, MI, July 2023.<br>
+          [2023] Niusen Chen. HiPDS: A Storage Hardware-independent Plausibly Deniable Storage System. MTU CS Cybersecurity Reading Group, Houghton, MI, April 2023.<br>
+          [2022] Niusen Chen. A Cross-layer Plausibly Deniable Encryption System for Mobile Devices (<a href="hpds/crossPDE.mp4">presentation video</a>). 18th EAI International Conference on Security and Privacy in Communication Networks (virtual conference), October 2022.<br>
+          [2022] Niusen Chen. A Secure Plausibly Deniable System for Mobile Devices against Multi-snapshot Adversaries. Computing[MTU] Showcase Poster Session, Houghton, MI, October 2022.<br>
+          [2022] Bo Chen. <a href="hpds/PDE-SaTC-2022.pdf">SaTC: CORE: Small: Collaborative: Hardware-assisted Plausibly Deniable System for Mobile Devices</a>. The 5th NSF SaTC PI Meeting, Arlington, VA, USA, June 2022 (poster presentation).<br>
+          [2022] Niusen Chen. The Block-based Mobile PDE Systems Are Not Secure – Experimental Attacks. 2022 EAI International Conference on Applied Cryptography in Computer and Communications, virtual conference, May 2022 (<a href="hpds/attack-pde.mp4">presentation video</a>).<br>
+          [2022] Niusen Chen. <a href="hpds/multi-PDE.pdf">A Secure Plausibly Deniable System for Mobile Devices against Multi-snapshot Adversaries</a>. Computing[MTU] Showcase Poster Session, Houghton, MI, April 2022.<br>
+          [2022] Thomas Grifka. Image Steganography: Unknown Information. Computing[MTU] Showcase Poster Session, Houghton, MI, Apri 2022 (won a Third Place among all the posters presented by undergraduate students).<br>
+          [2021] Niusen Chen. <a href="hpds/mobi-confidentiality.pdf">Ensuring Data Confidentiality in Mobile Computing Devices via Plausibly Deniable Encryption and Secure Deletion</a>. MTU CS Cybersecurity Reading Group, Houghton, MI, November 2021.<br>
+          [2021] Niusen Chen. MobiWear: A Plausibly Deniable Encryption System for Wearable Mobile Devices. EAI AC3 2021, May 2021 (<a href="hpds/MobiWear.mp4">presentation video</a>).<br>
+          [2020] Niusen Chen. A Secure Plausibly Deniable System for Mobile Devices against Multi-snapshot Adversaries. IEEE S&P, May 2020 (<a href="hpds/oakland2020-PDE-Poster.pdf">poster</a>, <a href="hpds/PDE-oakland2020.MP4">preview video</a>).<br>
+          
+          <b>Education</b>:<br>
+          [2024] The project was integrated into CS5740/4740 (Development of Trusted Software) during Spring 2024 as a special topic on data security (<a href="hpds/PDE-CS5740-Spring2024.pdf">slide</a>) by Dr. Niusen Chen. <br>
+          [2023] The project was integrated into <a href="https://snp.cs.mtu.edu/outreach/wics2023.html">Cybersecurity Track</a> of 2023 MTU Women in Computer Science <a href="https://www.mtu.edu/syp/discover/pathway-programs/">Summer Youth Programs</a>, in which we taught female students from local high schools to program the flash translation layer (FTL) to incorporate security features. Harsh Singh was leading this effort.<br>
+          [2023] The project was integrated into CS5740/4740 (Development of Trusted Software) during Spring 2023 as a special topic on data security (<a href="hpds/PDE-CS5740-Spring2023.pdf">slide</a>). <br>
+          [2023] The project was integrated into CS5472 (Advanced Topics in Computer Security) during Spring 2023 as an advanced topic on plausibly deniable encryption systems on mobile computing devices (<a href="hpds/CS547202282023.pdf">slide1</a>, <a href="hpds/CS547203022023.pdf">slide2</a>).<br>
+          [2022] The project was integrated into CS5740/4740 (Development of Trusted Software) during Spring 2022 as a special topic on data security (<a href="hpds/PDE-CS5740-Spring2022.pdf">slide</a>). <br>
+          [2022] The project was integrated into CS5472 (Advanced Topics in Computer Security) during Spring 2022 as an advanced topic on plausibly deniable encryption systems on mobile computing devices (<a href="hpds/CS547202222022.pdf">slide1</a>, <a href="hpds/CS547202242022.pdf">slide2</a>).<br>
+          
+          [2021] The project was integrated into CS5740 (Development of Trusted Software) during Spring 2021 as a special topic on data security (<a href="hpds/PDE-CS5740-Spring2021.pdf">slide</a>). <br>
+          [2021] The project was integrated into CS5472 (Advanced Topics in Computer Security) during Spring 2021 as an advanced topic on plausibly deniable encryption systems on mobile computing devices (<a href="hpds/CS547202232021.pdf">slide1</a>, <a href="hpds/CS547202252021.pdf">slide2</a>).<br>
+          [2021] The project was integrated into MTU CS cybersecurity reading group during Spring 2021 (<a href="hpds/DEFTL-readinggroup-Spring2021.pdf">slide</a>).<br>
+          
+          [2020] The project was integrated into CS5740 (Development of Trusted Software) during Spring 2020 as a special topic about PDE systems (<a href="hpds/PDE-CS5740-Spring2020.pdf">slide</a>).<br>
+          
+          [2020] The project was integrated into MTU CS cybersecurity reading group during Spring 2020 (<a href="hpds/DEFTL-readinggroup-Spring2020.pdf">slide</a>).<br>
+          
+          [2019] Knowledge relating to the project was integrated into CS5472 (Advanced Topics in Computer Security) during Spring 2019 as an advanced topic (<a href="hpds/CS547202262019.pdf">slide1</a>, <a href="hpds/CS547202282019.pdf">slide2</a>). <br>
+          
+          [2018] Knowledge relating to the project was integrated into CS5472 (Advanced Topics in Computer Security) during Spring 2018 as an advanced topic (<a href="hpds/CS547202262018.pdf">slide1</a>, <a href="hpds/CS547203012018.pdf">slide2</a>). <br>
+          
+          <a href="../education">Other educational activities</a><br>
+          
+          <b>Outreach:</b><br>
+          <a href="https://snp.cs.mtu.edu/outreach/">Outreach activities</a><br>
+          <a href="https://www.mtu.edu/sfs/">CyberCorps®: Scholarship for Service (SFS) Program at Michigan Tech</a><br>
+          
+          <b>Funding</b>:<br>
+          
+          This material is based upon work supported by the National Science Foundation under Grant Number 1928349: "SaTC: CORE: Small: Collaborative: Hardware-assisted Plausibly Deniable System for Mobile Devices", 10/2019-03/2024. Our collaborator in the University of Delaware is supported by the National Science Foundation under Grant Number 2313139 (1928331 previously). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.<br>
+          
+         
+      </div>
+  </div>
+  
+  
+  
+  
+  <div class="clear"></div>
+</div>
+<div class="clear1"></div>
+<div class="foot"> © 2024&nbsp;&nbsp;&nbsp;&nbsp;Security  and  Privacy (SnP) Lab @ Michigan Technological University</div>
+</body>
+</html>
